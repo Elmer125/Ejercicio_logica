@@ -1,0 +1,89 @@
+C:\Users\Mauricio\Ejercicio_logica>npm start
+
+> prueba_csv@1.0.0 start
+> ts-node-dev script.ts
+
+[INFO] 21:54:04 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.8.0, typescript ver. 4.7.2)
+-------------------------------------------------------
+Estado con mayor acumulado a la fecha California
+-------------------------------------------------------
+Estado con menor acumulado a la fecha Diamond Princess
+-------------------------------------------------------
+Grand Princess tiene un porcentaje de muerte Infinity%
+New Jersey tiene un porcentaje de muerte 0.29%
+New York tiene un porcentaje de muerte 0.27%
+Massachusetts tiene un porcentaje de muerte 0.25%
+Rhode Island tiene un porcentaje de muerte 0.25%
+Arizona tiene un porcentaje de muerte 0.24%
+Mississippi tiene un porcentaje de muerte 0.24%
+Connecticut tiene un porcentaje de muerte 0.23%
+Alabama tiene un porcentaje de muerte 0.22%
+Louisiana tiene un porcentaje de muerte 0.22%
+South Dakota tiene un porcentaje de muerte 0.22%
+Pennsylvania tiene un porcentaje de muerte 0.20%
+Indiana tiene un porcentaje de muerte 0.20%
+North Dakota tiene un porcentaje de muerte 0.20%
+Illinois tiene un porcentaje de muerte 0.19%
+Georgia tiene un porcentaje de muerte 0.19%
+Michigan tiene un porcentaje de muerte 0.19%
+Iowa tiene un porcentaje de muerte 0.19%
+Arkansas tiene un porcentaje de muerte 0.19%
+New Mexico tiene un porcentaje de muerte 0.19%
+Tennessee tiene un porcentaje de muerte 0.18%
+South Carolina tiene un porcentaje de muerte 0.18%
+Nevada tiene un porcentaje de muerte 0.18%
+Texas tiene un porcentaje de muerte 0.17%
+Oklahoma tiene un porcentaje de muerte 0.17%
+Kansas tiene un porcentaje de muerte 0.17%
+Delaware tiene un porcentaje de muerte 0.17%
+California tiene un porcentaje de muerte 0.16%
+Florida tiene un porcentaje de muerte 0.16%
+Ohio tiene un porcentaje de muerte 0.16%
+District of Columbia tiene un porcentaje de muerte 0.16%
+West Virginia tiene un porcentaje de muerte 0.15%
+Montana tiene un porcentaje de muerte 0.15%
+Missouri tiene un porcentaje de muerte 0.14%
+Maryland tiene un porcentaje de muerte 0.14%
+Kentucky tiene un porcentaje de muerte 0.14%
+Virginia tiene un porcentaje de muerte 0.13%
+Wisconsin tiene un porcentaje de muerte 0.13%
+Minnesota tiene un porcentaje de muerte 0.13%
+North Carolina tiene un porcentaje de muerte 0.12%
+Nebraska tiene un porcentaje de muerte 0.12%
+Wyoming tiene un porcentaje de muerte 0.12%
+Colorado tiene un porcentaje de muerte 0.11%
+Idaho tiene un porcentaje de muerte 0.11%
+New Hampshire tiene un porcentaje de muerte 0.10%
+Guam tiene un porcentaje de muerte 0.08%
+Washington tiene un porcentaje de muerte 0.07%
+Utah tiene un porcentaje de muerte 0.07%
+Oregon tiene un porcentaje de muerte 0.06%
+Puerto Rico tiene un porcentaje de muerte 0.06%
+Maine tiene un porcentaje de muerte 0.06%
+Alaska tiene un porcentaje de muerte 0.05%
+Vermont tiene un porcentaje de muerte 0.04%
+Hawaii tiene un porcentaje de muerte 0.03%
+Virgin Islands tiene un porcentaje de muerte 0.03%
+Northern Mariana Islands tiene un porcentaje de muerte 0.00%
+American Samoa tiene un porcentaje de muerte 0.00%
+Diamond Princess tiene un porcentaje de muerte NaN%
+-------------------------------------------------------
+El estado mas afectado es New Jersey por que tiene el mayor porcentaje de muertes en su poblcacion 0.29%
+
+/* 
+ El estado con mayor acumulado despues de organizar el arreglo de manera descendente fue california,
+ lo guarde en una variable aparte por que me estaba generando un error raro.
+
+ El estado con menor acumulado fue Diamond Princess
+
+ Cree el objeto con la propiedad porcentaje para tener el valor de muertes vs poblacion para cada estado 
+ recorri el arreglo con el foreach y lo imprimi en la consola.
+
+ Para el estado mas afectado organice el arreglo por el porcentaje de muertes y lo imprima en la consola.
+ 
+ En los resultados tengo dos datos que generan problemas uno es el estado de Diamon Princess 
+ que su poblacion es de 0 y su numero de muertes igual y el estado de Grand Princess que su poblacion
+ es de 0 y sus muertes fueron 3 entonces sus porcentaje me da un Infinito 
+ 
+ Por eso en el estado mas afectado inicio el array en la posición 1
+ */
